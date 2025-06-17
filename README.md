@@ -3,9 +3,13 @@
 ## 🎯 Objective
 
 This repository contains a comprehensive survival analysis comparing Control vs. Treatment groups in a clinical trial setting, featuring:
+
 ✔ Kaplan-Meier survival curves with risk tables
+
 ✔ Log-Rank test for between-group comparisons
+
 ✔ Cox Proportional Hazards regression with Hazard Ratios
+
 ✔ Comprehensive model diagnostics and assumptions testing
 
 The analysis determines treatment efficacy and quantifies survival differences with 95% confidence intervals.
@@ -35,12 +39,15 @@ The analysis determines treatment efficacy and quantifies survival differences w
 
 1. Data Preparation
 2. Primary Analysis: Kaplan-Meier estimation with survfit()| Log-Rank test via survdiff() | Cox PH modeling with coxph()
-3. Secondary Analysis:
-4. Output Generation
+3. Secondary Analysis: Subgroup analyses by stratification| Time-dependent covariates | Competing risks assessment
+4. Output Generation: KM plots with 95% confidence bands | Forest plots for hazard ratios | Model diagnostics visualizations
 
 ---
 
 ## 📝 Example Output
+
+![ClinicalTrialSurvivalAnalysisTreatmentGroupComparison](newplot.png)
+
 
 ### 📋 Table 1. Log-Rank Test Results
 
