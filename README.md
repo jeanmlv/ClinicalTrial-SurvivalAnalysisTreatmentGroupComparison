@@ -49,16 +49,22 @@ The analysis determines treatment efficacy and quantifies survival differences w
 ![ClinicalTrialSurvivalAnalysisTreatmentGroupComparison](newplot.png)
 
 
-### 📋 Table 1. Log-Rank Test Results
+### Log-Rank Test Comparison
+| **Characteristic**       | **Control N = 100¹** | **Treatment N = 100¹** | **p-value²** |
+|---------------------------|----------------------|------------------------|--------------|
+| **Observed Events**       | 82                   | 80                     |              |
+| **Expected Events**       | 96.3                 | 65.7                   |              |
+| **Test Statistic (χ²)**   | 5.5                  |                        | 0.02         |
 
-          N   |Observed |Expected| (O-E)²/E
-Control 100      82      96.3       2.12
-Treated 100      80      65.7       3.11
+### Cox Proportional Hazards Model
+| **Characteristic**       | **HR (95% CI)**      | **Coefficient (SE)**    | **p-value**  |
+|---------------------------|----------------------|-------------------------|--------------|
+| **Treatment Effect**      | 1.46 (1.06 - 1.99)   | 0.375 (0.161)           | 0.0199       |
+| **Model Fit Statistics³** |                      |                         |              |
+| - Concordance             | 0.537 (SE = 0.023)   |                         |              |
+| - Likelihood Ratio Test   | χ² = 5.39 (1 df)     |                         | 0.02         |
 
-Chisq=5.5, p=0.02
-
-### 📋 Table 2. Cox Model Summary
-
-Parameter	|HR (95% CI)     |  p-value
-Treatment	|1.46 (1.06-1.99)|	0.020
+<sub>¹ Total number at risk in each group.  
+² Log-rank test p-value.  
+³ Additional tests: Wald test χ²=5.42 (p=0.02), Score test χ²=5.48 (p=0.02).</sub>
 
