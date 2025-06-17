@@ -1,5 +1,7 @@
 # ClinicalTrial — SurvivalAnalysis: TreatmentGroupComparison
 
+> A comparative survival analysis of control versus treatment groups in clinical trials using Kaplan-Meier and Cox regression models to assess therapeutic efficacy.
+
 ## 🎯 Objective
 
 This repository contains a comprehensive survival analysis comparing Control vs. Treatment groups in a clinical trial setting, featuring:
@@ -45,6 +47,8 @@ The analysis determines treatment efficacy and quantifies survival differences w
 ---
 
 ## 📝 Example Output
+
+### Kaplan-Meier Curve
 
 ![ClinicalTrialSurvivalAnalysisTreatmentGroupComparison](newplot.png)
 
