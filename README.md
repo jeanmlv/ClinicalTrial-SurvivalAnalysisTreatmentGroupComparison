@@ -1,4 +1,4 @@
-# ClinicalTrial — SurvivalAnalysis: TreatmentGroupComparison
+# Clinical Trial — Survival Analysis: Treatment Group Comparison
 
 > A comparative survival analysis of control versus treatment groups in clinical trials using Kaplan-Meier and Cox regression models to assess therapeutic efficacy.
 
